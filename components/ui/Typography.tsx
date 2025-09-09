@@ -30,11 +30,14 @@ export const Typography = ({
   variant,
   className,
   children,
+  ...props
 }: TypographyProps) => {
   const Component = as;
   const baseClass = variant ? typographyStyles[variant] : '';
 
   return (
-    <Component className={clsx(baseClass, className)}>{children}</Component>
+    <Component className={clsx(baseClass, className)} {...props}>
+      {children}
+    </Component>
   );
 };
