@@ -25,7 +25,7 @@ const typographyStyles = {
   overline: 'text-[12px] leading-[20px] font-semibold tracking-[0.7px]',
 };
 
-export const Typography = ({
+const Typography = ({
   as = 'p',
   variant,
   className,
@@ -41,3 +41,5 @@ export const Typography = ({
     </Component>
   );
 };
+
+export default Typography;

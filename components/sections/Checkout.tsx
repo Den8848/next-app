@@ -1,5 +1,5 @@
 import React from 'react';
-import { Typography } from '../ui/Typography';
+import Typography from '../ui/Typography';
 import { Button } from '../ui/Button';
 import { Input } from '../ui/Input';
 import { Separator } from '../ui/Separator';
@@ -8,16 +8,18 @@ import MasterCard from '../icons/MasterCard';
 import AmericanExpress from '../icons/AmericanExpress';
 import Diners from '../icons/Diners';
 import UnionPay from '../icons/UnionPay';
-import Checkbox from '../icons/Checkbox';
+import List from '../ui/List';
+
+const orderData = [
+  { text: 'Quantity of IP', value: '100 IPs' },
+  { text: 'Location', value: 'United Kingdom' },
+  { text: 'Price per IP', value: '$2.50' },
+  { text: 'Subscription period', value: '12 months' },
+];
+
+const benefits = ['3-day Trial', 'Customer Success Manager'];
 
 const Checkout = () => {
-  const orderData = [
-    { text: 'Quantity of IP', value: '100 IPs' },
-    { text: 'Location', value: 'United Kingdom' },
-    { text: 'Price per IP', value: '$2.50' },
-    { text: 'Subscription period', value: '12 months' },
-  ];
-
   return (
     <div>
       <div className="p-6 border border-[#E5E7EB] rounded-[8px]">
@@ -28,26 +30,7 @@ const Checkout = () => {
           Datacenter Proxies
         </Typography>
 
-        <div className="flex gap-2 mt-2">
-          <Checkbox />
-          <Typography
-            as="h5"
-            variant="paragraphMedium"
-            className="font-medium text-[#4D5761]"
-          >
-            3-day Trial
-          </Typography>
-        </div>
-        <div className="flex gap-2 mt-2">
-          <Checkbox />
-          <Typography
-            as="h5"
-            variant="paragraphMedium"
-            className="font-medium text-[#4D5761]"
-          >
-            Customer Success Manager
-          </Typography>
-        </div>
+        <List items={benefits} />
 
         <div className="mt-4">
           {orderData.map(({ text, value }, index) => (

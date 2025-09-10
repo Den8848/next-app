@@ -8,6 +8,7 @@ const Checkbox = (props: SVGProps<SVGSVGElement>) => {
       height="20"
       viewBox="0 0 20 20"
       fill="none"
+      style={{ width: '20px', height: '20px', flexShrink: 0 }}
       {...props}
     >
       <path
