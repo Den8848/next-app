@@ -1,4 +1,3 @@
-import React from 'react';
 import Checkbox from '../icons/Checkbox';
 import Typography from './Typography';
 

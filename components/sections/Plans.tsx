@@ -1,4 +1,3 @@
-import React from 'react';
 import Typography from '../ui/Typography';
 import List from '../ui/List';
 
