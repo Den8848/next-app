@@ -2,7 +2,7 @@ import React, { ElementType } from 'react';
 import clsx from 'clsx';
 
 interface TypographyProps extends React.HTMLAttributes<HTMLElement> {
-  as: ElementType;
+  as?: ElementType;
   variant: keyof typeof typographyStyles;
   children: React.ReactNode;
   className?: string;

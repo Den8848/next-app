@@ -1,5 +1,9 @@
 import Typography from '../ui/Typography';
 import List from '../ui/List';
+import { Button } from '../ui/Button';
+import BackArrow from '../icons/BackArrow';
+import Logo from '../ui/Logo';
+import { Sidebar } from '../ui/Sidebar';
 
 const plansLeft = [
   'Unlimited Concurrent Sessions',
@@ -17,7 +21,7 @@ const plansRight = [
 
 const Plans = () => {
   return (
-    <div className="p-6 border border-[#E5E7EB] rounded-[8px]">
+    <div className="p-6 mt-6 border border-[#E5E7EB] rounded-[8px]">
       <Typography as="h6" variant="heading6" className="mb-2">
         All plans include
       </Typography>
@@ -30,6 +34,10 @@ const Plans = () => {
           <List items={plansRight} />
         </div>
       </div>
+
+      {/* <Logo /> */}
+
+      {/* <Sidebar /> */}
     </div>
   );
 };

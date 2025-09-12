@@ -25,7 +25,7 @@ const Checkout = () => {
         <Typography as="h5" variant="heading5">
           Order summary
         </Typography>
-        <Typography as="p" variant="paragraphSmall" className="mt-4">
+        <Typography variant="paragraphSmall" className="mt-4">
           Datacenter Proxies
         </Typography>
 
@@ -35,15 +35,12 @@ const Checkout = () => {
           {orderData.map(({ text, value }, index) => (
             <div key={index} className="flex justify-between">
               <Typography
-                as="p"
                 variant="paragraphMedium"
                 className="font-medium text-[#4D5761]"
               >
                 {text}
               </Typography>
-              <Typography as="p" variant="paragraphMedium">
-                {value}
-              </Typography>
+              <Typography variant="paragraphMedium">{value}</Typography>
             </div>
           ))}
         </div>
@@ -66,12 +63,8 @@ const Checkout = () => {
         <Separator className="mt-4" />
 
         <div className="flex justify-between items-center mt-4">
-          <Typography as="p" variant="paragraphExtraSmall">
-            Total
-          </Typography>
-          <Typography as="p" variant="heading4">
-            $140.00
-          </Typography>
+          <Typography variant="paragraphExtraSmall">Total</Typography>
+          <Typography variant="heading4">$140.00</Typography>
         </div>
       </div>
 
