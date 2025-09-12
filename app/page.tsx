@@ -1,6 +1,6 @@
 import BackArrow from '@/components/icons/BackArrow';
-import DatacenterProxies from '@/components/sections/DatacenterProxies';
-import Plans from '@/components/sections/Plans';
+import DatacenterProxies from '@/components/sections/organisms/DatacenterProxies';
+import Plans from '@/components/sections/organisms/Plans';
 import { Button } from '@/components/ui/Button';
 
 export default function Home() {

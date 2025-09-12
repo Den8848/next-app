@@ -1,9 +1,5 @@
-import Typography from '../ui/Typography';
-import List from '../ui/List';
-import { Button } from '../ui/Button';
-import BackArrow from '../icons/BackArrow';
-import Logo from '../ui/Logo';
-import { Sidebar } from '../ui/Sidebar';
+import List from '../molecules/List';
+import Typography from '../../ui/Typography';
 
 const plansLeft = [
   'Unlimited Concurrent Sessions',

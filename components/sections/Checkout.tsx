@@ -7,7 +7,7 @@ import MasterCard from '../icons/MasterCard';
 import AmericanExpress from '../icons/AmericanExpress';
 import Diners from '../icons/Diners';
 import UnionPay from '../icons/UnionPay';
-import List from '../ui/List';
+import List from './molecules/List';
 
 const orderData = [
   { text: 'Quantity of IP', value: '100 IPs' },

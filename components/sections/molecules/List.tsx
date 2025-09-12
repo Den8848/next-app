@@ -1,5 +1,5 @@
-import Checkbox from '../icons/Checkbox';
-import Typography from './Typography';
+import Checkbox from '../../icons/Checkbox';
+import Typography from '../../ui/Typography';
 
 interface ListProps {
   items: string[];
