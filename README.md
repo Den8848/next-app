@@ -66,3 +66,5 @@ npm run dev
 4. What are the main risks do you see in the front-end part of such a project?
 
 - Inefficient state, excessive re-rendering of components → slowdown. Lack of typing → errors during project development
+
+## Working time on this project: 29 hours.
