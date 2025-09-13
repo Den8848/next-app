@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Goodface Test Task
 
-## Getting Started
+Web Application - Dashboard Goodface | Test task front-end dev
 
-First, run the development server:
+**Repository:** [GitHub](https://github.com/Den8848/next-app)
+
+## Description
+
+- Create page layout based on design
+- Responsiveness (desktop + mobile)
+- Typing with TypeScript
+- Use of TailwindCSS
+- Semantic HTML
+
+## Technologies
+
+- Next.js
+- TypeScript
+- TailwindCSS
+- shadcn/ui
+
+## Requirements
+
+- Node.js version 22.18.0 (specified in `.nvmrc`)
+
+## Setup
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Den8848/next-app
+```
+
+2. Use the correct Node.js version:
+
+```bash
+nvm use 22.18.0
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Start the project:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Answers for the questions
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. How would you organize the components (structure, approach to reuse)?
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- I would use a component-based approach: small, isolated components (buttons, inputs, cards) that are easy to reuse. I would use props for customization and context/state for shared data to avoid code duplication.
 
-## Learn More
+2. How would you implement API work in a large-scale project?
 
-To learn more about Next.js, take a look at the following resources:
+- I would use a separate layer for working with the API, such as services or api, where all requests are described. For data state, I would use a global state manager (Redux, Zustand) or React Query for caching and synchronization. I would create types for requests/responses (TypeScript), error handling, and centralized error logging.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. How would you scale pages, functionality, new blocks?
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Modular structure; UI reuse; lazy loading and code splitting.
 
-## Deploy on Vercel
+4. What are the main risks do you see in the front-end part of such a project?
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Inefficient state, excessive re-rendering of components → slowdown. Lack of typing → errors during project development

@@ -19,7 +19,7 @@ import {
 const BundleDiscountTable = () => {
   return (
     <Accordion type="single" collapsible>
-      <AccordionItem value="item-1" className="">
+      <AccordionItem value="item-1">
         <AccordionTrigger className="max-w-[max-content] hover:cursor-pointer p-0 hover:no-underline gap-0">
           <Typography variant="paragraphExtraSmall" className="mr-1">
             Bundle discounts

@@ -17,7 +17,7 @@ const plansRight = [
 
 const Plans = () => {
   return (
-    <div className="p-6 mt-6 border border-[#E5E7EB] rounded-[8px]">
+    <div className="w-full xl:max-w-[65%] p-6 border border-[#E5E7EB] rounded-[8px] bg-[#FFFFFF]">
       <Typography as="h6" variant="heading6" className="mb-2">
         All plans include
       </Typography>
@@ -30,10 +30,6 @@ const Plans = () => {
           <List items={plansRight} />
         </div>
       </div>
-
-      {/* <Logo /> */}
-
-      {/* <Sidebar /> */}
     </div>
   );
 };

@@ -1,13 +1,13 @@
-import Typography from '../ui/Typography';
-import { Button } from '../ui/Button';
-import { Input } from '../ui/Input';
-import { Separator } from '../ui/Separator';
-import Visa from '../icons/Visa';
-import MasterCard from '../icons/MasterCard';
-import AmericanExpress from '../icons/AmericanExpress';
-import Diners from '../icons/Diners';
-import UnionPay from '../icons/UnionPay';
-import List from './molecules/List';
+import Typography from '../../ui/Typography';
+import { Button } from '../../ui/Button';
+import { Input } from '../../ui/Input';
+import { Separator } from '../../ui/Separator';
+import Visa from '../../icons/Visa';
+import MasterCard from '../../icons/MasterCard';
+import AmericanExpress from '../../icons/AmericanExpress';
+import Diners from '../../icons/Diners';
+import UnionPay from '../../icons/UnionPay';
+import List from '../molecules/List';
 
 const orderData = [
   { text: 'Quantity of IP', value: '100 IPs' },
@@ -20,8 +20,8 @@ const benefits = ['3-day Trial', 'Customer Success Manager'];
 
 const Checkout = () => {
   return (
-    <div>
-      <div className="p-6 border border-[#E5E7EB] rounded-[8px]">
+    <div className="w-full xl:max-w-[30%]">
+      <div className="p-6 border border-[#E5E7EB] rounded-[8px] bg-[#FFFFFF]">
         <Typography as="h5" variant="heading5">
           Order summary
         </Typography>
@@ -45,7 +45,7 @@ const Checkout = () => {
           ))}
         </div>
 
-        <div className="flex w-full max-w-sm items-center gap-2 mt-7">
+        <div className="flex w-full justify-between items-center gap-2 mt-7">
           <Input
             type="text"
             placeholder="Add discount code"

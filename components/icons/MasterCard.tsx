@@ -26,7 +26,7 @@ const MasterCard = (props: SVGProps<SVGSVGElement>) => {
         <rect
           width="40"
           height="24"
-          fill="white"
+          fill="none"
           style={{ mixBlendMode: 'color' }}
         />
       </g>

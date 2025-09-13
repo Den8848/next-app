@@ -1,9 +1,8 @@
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono, Space_Grotesk } from 'next/font/google';
-import './globals.css';
-
 import { SidebarProvider } from '@/components/ui/Sidebar';
-import AppSidebar from '@/components/sections/AppSidebar';
+import AppSidebar from '@/components/sections/organisms/AppSidebar';
+import './globals.css';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -39,7 +38,7 @@ export default function RootLayout({
       >
         <SidebarProvider>
           <AppSidebar />
-          <main>{children}</main>
+          <main className='w-full'>{children}</main>
         </SidebarProvider>
       </body>
     </html>

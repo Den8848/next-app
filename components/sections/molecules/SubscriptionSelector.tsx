@@ -44,16 +44,15 @@ const SubscriptionSelector = () => {
                 flex items-center justify-center
               `}
             >
-              {/* TODO - add white dot (pointer) */}
               {selected === option.value && (
                 <div className="absolute w-2 h-2 bg-[#6BD893] rounded-full"></div>
               )}
             </RadioGroupItem>
 
-            <span className="flex-1">{option.label}</span>
+            <span>{option.label}</span>
 
             {option.badge && (
-              <span className="text-[#136C34] px-1.5 py-0.5 rounded-[4px] border border-[#6BD893] bg-[#E9F9EF] text-sm">
+              <span className="text-[#136C34] px-1.5 py-0.5 ml-2 rounded-[4px] border border-[#6BD893] bg-[#E9F9EF] text-sm">
                 {option.badge}
               </span>
             )}

@@ -7,7 +7,7 @@ import IpQuantitySelector from '../molecules/IpQuantitySelector';
 
 const DatacenterProxies = () => {
   return (
-    <div className="p-6 mt-6 border border-[#E5E7EB] rounded-[8px]">
+    <div className="w-full xl:max-w-[65%] p-6 border border-[#E5E7EB] rounded-[8px] bg-[#FFFFFF] pointer-events-auto">
       <div className="flex gap-4">
         <Image
           src="/images/service.png"

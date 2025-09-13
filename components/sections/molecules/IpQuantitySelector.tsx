@@ -14,7 +14,6 @@ type InputMode = 'slider' | 'manual';
 
 const IpQuantitySelector = () => {
   const [value, setValue] = useState(MIN);
-
   const [inputMode, setInputMode] = useState<InputMode>('slider');
 
   const percentage = useMemo(
@@ -31,23 +30,29 @@ const IpQuantitySelector = () => {
     <>
       {inputMode === 'slider' && (
         <div className="w-full mx-auto mt-11">
-          <div className="relative mb-4">
-            <div className="absolute -top-6 left-1/2 transform -translate-x-1/2 bg-[#0078D7] text-white text-sm px-2 py-1 rounded">
+          <div className="relative w-full">
+            <div
+              className="absolute -top-8 bg-[#0078D7] text-white text-sm px-2 py-1 rounded transition-all duration-75"
+              style={{
+                left: `calc(${percentage}% )`,
+                transform: 'translateX(-50%)',
+              }}
+            >
               {value} IP
             </div>
-          </div>
 
-          <input
-            type="range"
-            min={10}
-            max={1000}
-            value={value}
-            onChange={(e) => setValue(Number(e.target.value))}
-            style={{
-              background: `linear-gradient(to right, #0078D7 ${percentage}%, #E5E7EB ${percentage}%)`,
-            }}
-            className="w-full h-2 rounded-lg appearance-none"
-          />
+            <input
+              type="range"
+              min={MIN}
+              max={MAX}
+              value={value}
+              onChange={(e) => setValue(Number(e.target.value))}
+              style={{
+                background: `linear-gradient(to right, #0078D7 ${percentage}%, #E5E7EB ${percentage}%)`,
+              }}
+              className="w-full h-2 rounded-lg appearance-none"
+            />
+          </div>
 
           <div className="flex justify-between text-xs text-gray-500 mt-2">
             {ticks.map((tick) => (
