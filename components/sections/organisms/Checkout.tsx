@@ -1,7 +1,7 @@
-import Typography from '../../ui/Typography';
-import { Button } from '../../ui/Button';
-import { Input } from '../../ui/Input';
-import { Separator } from '../../ui/Separator';
+import Typography from '../../ui/typography';
+import { Button } from '../../ui/button';
+import { Input } from '../../ui/input';
+import { Separator } from '../../ui/separator';
 import Visa from '../../icons/Visa';
 import MasterCard from '../../icons/MasterCard';
 import AmericanExpress from '../../icons/AmericanExpress';

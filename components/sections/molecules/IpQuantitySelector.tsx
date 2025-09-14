@@ -1,10 +1,10 @@
 'use client';
 
 import { Input } from '../../../components/ui/Input';
-import { Button } from '../../../components/ui/Button';
+import { Button } from '../../ui/button';
 import { useCallback, useMemo, useState } from 'react';
 import Pencil from '../../../components/icons/Pencil';
-import Typography from '../../../components/ui/Typography';
+import Typography from '../../ui/typography';
 
 const [MIN, MAX] = [10, 1000];
 
