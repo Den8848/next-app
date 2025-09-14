@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import Typography from '../../ui/typography';
-import { RadioGroup, RadioGroupItem } from '../../ui/radioGroup';
+import { RadioGroup, RadioGroupItem } from '../../ui/RadioGroup';
 
 const options = [
   { value: 'one', label: '1 month' },
