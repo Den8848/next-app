@@ -1,11 +1,11 @@
-import Typography from '@/components/ui/Typography';
+import Typography from '../../../components/ui/Typography';
 
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from '@/components/ui/Accordion';
+} from '../../../components/ui/Accordion';
 
 import {
   Table,
@@ -14,7 +14,7 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from '@/components/ui/Table';
+} from '../../../components/ui/Table';
 
 const BundleDiscountTable = () => {
   return (

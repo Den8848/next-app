@@ -7,8 +7,8 @@ import {
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
-} from '@/components/ui/Sidebar';
-import Typography from '@/components/ui/Typography';
+} from '../../../components/ui/Sidebar';
+import Typography from '../../../components/ui/Typography';
 
 interface NavItem {
   component: FC<SVGProps<SVGSVGElement>>;

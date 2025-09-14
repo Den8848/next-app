@@ -1,6 +1,6 @@
 import TopBar from '../molecules/TopBar';
 import NavDashboardPanelContent from '../molecules/NavDashboardPanelContent';
-import { Sidebar, SidebarContent, SidebarGroup } from '@/components/ui/Sidebar';
+import { Sidebar, SidebarContent, SidebarGroup } from '../../../components/ui/Sidebar';
 
 const AppSidebar = () => {
   return (

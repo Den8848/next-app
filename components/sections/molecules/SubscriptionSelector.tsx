@@ -1,8 +1,8 @@
 'use client';
 
 import { useState } from 'react';
-import Typography from '@/components/ui/Typography';
-import { RadioGroup, RadioGroupItem } from '@/components/ui/RadioGroup';
+import Typography from '../../../components/ui/Typography';
+import { RadioGroup, RadioGroupItem } from '../../../components/ui/RadioGroup';
 
 const options = [
   { value: 'one', label: '1 month' },

@@ -1,7 +1,7 @@
-import Billing from '@/components/icons/navigation/Billing';
-import Help from '@/components/icons/navigation/Help';
-import RightArrow from '@/components/icons/RightArrow';
-import Typography from '@/components/ui/Typography';
+import Billing from '../../../components/icons/navigation/Billing';
+import Help from '../../../components/icons/navigation/Help';
+import RightArrow from '../../../components/icons/RightArrow';
+import Typography from '../../../components/ui/Typography';
 
 interface ActionPanelProps {
   closeBurgerMenu?: () => void;

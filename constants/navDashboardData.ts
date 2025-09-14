@@ -1,13 +1,13 @@
-import Eye from '@/components/icons/navigation/Eye';
-import Monitor from '@/components/icons/navigation/Monitor';
-import Summary from '@/components/icons/navigation/Summary';
-import ProxyList from '@/components/icons/navigation/ProxyList';
-import UserSettings from '@/components/icons/navigation/UserSettings';
-import Products from '@/components/icons/navigation/Products';
-import APIKeys from '@/components/icons/navigation/APIKeys';
-import APIRequests from '@/components/icons/navigation/APIRequests';
-import Resellers from '@/components/icons/navigation/Resellers';
-import AffiliateProgram from '@/components/icons/navigation/AffiliateProgram';
+import Eye from '../components/icons/navigation/Eye';
+import Monitor from '../components/icons/navigation/Monitor';
+import Summary from '../components/icons/navigation/Summary';
+import ProxyList from '../components/icons/navigation/ProxyList';
+import UserSettings from '../components/icons/navigation/UserSettings';
+import Products from '../components/icons/navigation/Products';
+import APIKeys from '../components/icons/navigation/APIKeys';
+import APIRequests from '../components/icons/navigation/APIRequests';
+import Resellers from '../components/icons/navigation/Resellers';
+import AffiliateProgram from '../components/icons/navigation/AffiliateProgram';
 
 export const navDashboardData = [
   {

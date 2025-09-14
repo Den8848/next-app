@@ -1,5 +1,5 @@
-import DashboardIcon from '@/components/icons/DashboardIcon';
-import Typography from '@/components/ui/Typography';
+import DashboardIcon from '../../../components/icons/DashboardIcon';
+import Typography from '../../../components/ui/Typography';
 
 const TitleBar = () => {
   return (

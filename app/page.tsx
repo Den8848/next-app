@@ -1,15 +1,15 @@
 'use client';
 
-import BackArrow from '@/components/icons/BackArrow';
-import BurgerMenu from '@/components/sections/molecules/BurgerMenu';
-import BurgerMenuButton from '@/components/sections/molecules/BurgerMenuButton';
-import TopBar from '@/components/sections/molecules/TopBar';
-import Checkout from '@/components/sections/organisms/Checkout';
-import DatacenterProxies from '@/components/sections/organisms/DatacenterProxies';
-import Plans from '@/components/sections/organisms/Plans';
-import { Button } from '@/components/ui/Button';
-import { useIsMobile } from '@/hooks/use-mobile';
-import { useNoScroll } from '@/hooks/useNoScroll';
+import BackArrow from '../components/icons/BackArrow';
+import BurgerMenu from '../components/sections/molecules/BurgerMenu';
+import BurgerMenuButton from '../components/sections/molecules/BurgerMenuButton';
+import TopBar from '../components/sections/molecules/TopBar';
+import Checkout from '../components/sections/organisms/Checkout';
+import DatacenterProxies from '../components/sections/organisms/DatacenterProxies';
+import Plans from '../components/sections/organisms/Plans';
+import { Button } from '../components/ui/Button';
+import { useIsMobile } from '../hooks/use-mobile';
+import { useNoScroll } from '../hooks/useNoScroll';
 import { useState } from 'react';
 
 export default function Home() {

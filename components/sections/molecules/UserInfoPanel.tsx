@@ -1,5 +1,5 @@
-import Dots from '@/components/icons/Dots';
-import Typography from '@/components/ui/Typography';
+import Dots from '../../../components/icons/Dots';
+import Typography from '../../../components/ui/Typography';
 
 const UserInfoPanel = () => {
   return (
