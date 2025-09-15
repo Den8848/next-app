@@ -1,4 +1,4 @@
-import Typography from '../../ui/typography';
+import Typography from '../../ui/Typography';
 
 import UKFlag from '../../icons/flags/UKFlag';
 import USFlag from '../../icons/flags/USFlag';
@@ -18,7 +18,7 @@ import {
   SelectLabel,
   SelectTrigger,
   SelectValue,
-} from '../../ui/select';
+} from '../../ui/Select';
 
 const countries = [
   { value: 'uk', label: 'United Kingdom', Flag: UKFlag },

@@ -1,6 +1,6 @@
-import Logo from '../../ui/logo';
+import Logo from '../../ui/Logo';
 import NotificationBell from '../../../components/icons/NotificationBell';
-import Typography from '../../ui/typography';
+import Typography from '../../ui/Typography';
 import clsx from 'clsx';
 
 interface TopBarProps {

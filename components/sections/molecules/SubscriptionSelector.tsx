@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import Typography from '../../ui/typography';
+import Typography from '../../ui/Typography';
 import { RadioGroup, RadioGroupItem } from '../../ui/RadioGroup';
 
 const options = [

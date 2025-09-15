@@ -2,9 +2,9 @@
 
 import TitleBar from './TitleBar';
 import PlusIcon from '../../../components/icons/PlusIcon';
-import { Button } from '../../ui/button';
+import { Button } from '../../ui/Button';
 import NavDashboardPanel from './NavDashboardPanel';
-import { Separator } from '../../ui/separator';
+import { Separator } from '../../ui/Separator';
 import UserInfoPanel from './UserInfoPanel';
 import ActionPanel from './ActionPanel';
 import { useState } from 'react';
